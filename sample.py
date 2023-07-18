@@ -5,7 +5,10 @@ import os
 import pickle
 from contextlib import nullcontext
 import torch
-import tiktoken
+try:
+  import tiktoken
+except:
+  pass
 from model import GPTConfig, GPT
 
 # -----------------------------------------------------------------------------

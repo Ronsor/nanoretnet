@@ -1,4 +1,12 @@
 
+# nanoRetNet
+
+nanoRetNet is a fork of nanoGPT that uses parallel retention described in <https://arxiv.org/pdf/2307.08621.pdf> instead of standard self-attention.
+
+---
+
+# ORIGINAL README
+
 # nanoGPT
 
 ![nanoGPT](assets/nanogpt.jpg)
